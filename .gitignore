@@ -1,0 +1,4 @@
+# Do not commit the PhpStorm ".idea" directory
+/.idea
+# Do not commit ".env" files
+.env
