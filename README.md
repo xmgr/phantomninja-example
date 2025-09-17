@@ -29,3 +29,12 @@ git checkout --track origin/develop
 ```
 
 This would "check out" the `develop` branch. Meaning, when again running `print_hello_world()`, you would see the message "Hello World in develop branch :)".
+
+If the `develop` branch already exists, you could also run:
+
+```shell
+# Select the branch:
+git checkout develop
+# Pull the newest changes from Github:
+git pull
+```
