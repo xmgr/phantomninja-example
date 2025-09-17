@@ -1,5 +1,5 @@
 <?php
 
 	function print_hello_world() {
-		echo 'Hello World!';
+		echo 'Hello World in develope branch :)';
 	}
