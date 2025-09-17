@@ -16,8 +16,16 @@ Then, navigate into your project's folder (whatever project you have laying arou
 require_once '/var/www/phantomninja-example/bootstrap.php';
 ```
 
-If everything works, you could somewhere in one of your PHP files do:
+If everything works, you could in your project now call:
 
 ```php
 print_hello_world();
 ```
+
+You could (in terminal) now navigate into `/var/www/phantomninja-example` and run
+
+```shell
+git checkout --track origin/develop
+```
+
+This would "check out" the `develop` branch. Meaning, when again running `print_hello_world()`, you would see the message "Hello World in develop branch :)".
